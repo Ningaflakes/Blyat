@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/font_size"
+    android:orderInCategory="1"
+    android:title="Размер шрифта">
+    <menu>
+        <item
+            android:id="@+id/small_font"
+            android:orderInCategory="1"
+            android:title="14 dp">
+        </item>
+        <item
+            android:id="@+id/medium_font"
+            android:orderInCategory="2"
+            android:title="30 dp">
+        </item>
+        <item
+            android:id="@+id/big_font"
+            android:orderInCategory="3"
+            android:title="60 dp">
+        </item>
+    </menu>
+</item>
+
+    <item
+        android:id="@+id/text_color"
+        android:orderInCategory="2"
+        android:title="Цвет текста">
+    <menu>
+        <item
+            android:id="@+id/black_color"
+            android:orderInCategory="1"
+            android:title="Черный">
+        </item>
+        <item
+            android:id="@+id/white_color"
+            android:orderInCategory="2"
+            android:title="Белый">
+        </item>
+        <item
+            android:id="@+id/red_color"
+            android:orderInCategory="2"
+            android:title="Красный">
+        </item>
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/background_color"
+        android:orderInCategory="2"
+        android:title="Цвет фона">
+        <menu>
+            <item
+                android:id="@+id/red_background"
+                android:orderInCategory="1"
+                android:title="Красный">
+            </item>
+            <item
+                android:id="@+id/green_background"
+                android:orderInCategory="2"
+                android:title="Зеленый">
+            </item>
+            <item
+                android:id="@+id/blue_background"
+                android:orderInCategory="3"
+                android:title="Синий">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/background_image"
+        android:orderInCategory="4"
+        android:title="Сменить фон">
+        <menu>
+            <item
+                android:id="@+id/first_background"
+                android:orderInCategory="1"
+                android:title="Первый фон">
+            </item>
+            <item
+                android:id="@+id/second_background"
+                android:orderInCategory="2"
+                android:title="Второй фон">
+            </item>
+            <item
+                android:id="@+id/third_background"
+                android:orderInCategory="3"
+                android:title="Третий фон">
+            </item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LK</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="aboba"> </string>
+</resources>
